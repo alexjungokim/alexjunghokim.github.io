@@ -1,10 +1,7 @@
 cv:
   name: Alex Kim
-  label: ML Research Engineer
   email: alexjkim0717@gmail.com
   location: Seattle, WA
-  image: ""
-  summary: ML Research Engineer at Amazon AWS working on Vision-Language Models for spatial and visual reasoning.
 
   social_networks:
     - network: GitHub
@@ -17,24 +14,26 @@ cv:
       - institution: University of Southern California
         location: Los Angeles, CA
         area: Computer Science -- Artificial Intelligence
-        studyType: M.S.
-        start_date: 2021
-        end_date: 2023
-        score: "GPA: 3.9/4.0"
+        degree: M.S.
+        start_date: "2021-08"
+        end_date: "2023-05"
+        highlights:
+          - "GPA: 3.9/4.0"
 
       - institution: University of Southern California
         location: Los Angeles, CA
         area: Computer Science
-        studyType: B.S.
-        start_date: 2018
-        end_date: 2022
-        score: "GPA: 3.9/4.0"
+        degree: B.S.
+        start_date: "2018-08"
+        end_date: "2022-05"
+        highlights:
+          - "GPA: 3.9/4.0"
 
     Experience:
       - company: Amazon (AWS Visual Reasoning)
         position: Research Engineer II
         location: Seattle, WA
-        start_date: 2025-07
+        start_date: "2025-07"
         end_date: present
         highlights:
           - Led architectural design of large-scale spatial/visual reasoning video dataset with confidence-based hard-case mining flywheel; reduced human-in-the-loop dependency by 60%.
@@ -44,8 +43,8 @@ cv:
       - company: Altametrics
         position: Machine Learning Lead
         location: Los Angeles, CA
-        start_date: 2024-03
-        end_date: 2025-07
+        start_date: "2024-03"
+        end_date: "2025-07"
         highlights:
           - Designed end-to-end multimodal inventory tracking system fusing DeepSort MOT with transformer-based forecasting, achieving 0.91 mAP on detection.
           - Deployed tracking pipeline to production on AWS (Lambda, EC2) for real-time inference across 10 production sites.
@@ -53,8 +52,8 @@ cv:
       - company: Apple Inc.
         position: Machine Learning Researcher
         location: Cupertino, CA
-        start_date: 2022-05
-        end_date: 2024-03
+        start_date: "2022-05"
+        end_date: "2024-03"
         highlights:
           - Developed cross-modal search relevancy model using late fusion of BERT and ViT, achieving 96% AUC (+7 points over production baseline).
           - Scaled distributed training of multimodal retrieval models to terabyte-scale data across 10-GPU cluster using DeepSpeed ZeRO.
@@ -64,8 +63,8 @@ cv:
       - company: QuantSC (USC Quant Research)
         position: Project Lead
         location: Los Angeles, CA
-        start_date: 2020-08
-        end_date: 2023-05
+        start_date: "2020-08"
+        end_date: "2023-05"
         highlights:
           - Developed custom Transformer architecture (ETFormer) for ETF time series forecasting, achieving 74% accuracy vs. 67% baseline.
           - Integrated BERT-based sentiment embeddings reaching 86% AUC in sentiment-driven prediction.
@@ -73,8 +72,8 @@ cv:
       - company: USC Cyber Physical Systems Group
         position: Research Assistant
         location: Los Angeles, CA
-        start_date: 2021-01
-        end_date: 2022-01
+        start_date: "2021-01"
+        end_date: "2022-01"
         highlights:
           - Developed DeepTrust, a trust probability framework for CNN and RNN using subjective logic and fusion gates.
           - Designed NLP misinformation detection system (LSTM + BERT) with novel subjective logic gates.
@@ -83,34 +82,30 @@ cv:
       - title: Automatic App Image Generation and Selection
         authors:
           - Alex Kim
-        publisher: Apple Machine Learning Summit 2024
-        releaseDate: 2024-01
+        date: "2024-01"
+        journal: Apple Machine Learning Summit 2024
 
       - title: Automatic Creative Generation with Inpainting
         authors:
           - Alex Kim
-        publisher: Apple Search Summit 2023, Apple Machine Learning Summit 2023
-        releaseDate: 2023-08
+        date: "2023-08"
+        journal: Apple Search Summit 2023, Apple Machine Learning Summit 2023
 
       - title: Automatic Creative Selection with Cross-Modality Matching
         authors:
           - Alex Kim
-        publisher: BayLearn 2023 Main Presentation
-        releaseDate: 2022-07
+        date: "2022-07"
+        journal: BayLearn 2023 Main Presentation
 
     Skills:
-      - name: Languages
-        icon: fa-solid fa-code
-        keywords: "Python, C/C++, SQL"
+      - label: Languages
+        details: "Python, C/C++, SQL"
 
-      - name: ML Frameworks
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, JAX, Hugging Face Transformers, Keras, Scikit-learn"
+      - label: ML Frameworks
+        details: "PyTorch, TensorFlow, JAX, Hugging Face Transformers, Keras, Scikit-learn"
 
-      - name: Infrastructure & MLOps
-        icon: fa-solid fa-server
-        keywords: "DeepSpeed, TensorRT, AWS (EC2, Lambda, SageMaker, CDK), Docker, Kubernetes, Apache Spark"
+      - label: Infrastructure & MLOps
+        details: "DeepSpeed, TensorRT, AWS (EC2, Lambda, SageMaker, CDK), Docker, Kubernetes, Apache Spark"
 
-      - name: Research Areas
-        icon: fa-solid fa-flask
-        keywords: "Vision-Language Models, Chain-of-Thought Reasoning, RLHF / Alignment, Latent Diffusion Models, Multi-Object Tracking, Agentic Systems"
+      - label: Research Areas
+        details: "Vision-Language Models, Chain-of-Thought Reasoning, RLHF / Alignment, Latent Diffusion Models, Multi-Object Tracking, Agentic Systems"
