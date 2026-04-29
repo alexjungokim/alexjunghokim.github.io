@@ -251,7 +251,7 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: ["fundamentals", "system-design", "paper-review", "personal"] # these tags will be displayed on the front page of your blog
+display_tags: ["research", "engineering", "personal"] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
